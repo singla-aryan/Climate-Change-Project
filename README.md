@@ -16,7 +16,6 @@ This project looks at climate data from public datasets. It focuses on temperatu
 - Global CO₂ emissions dataset
 - Global temperature dataset
 
-Add the exact dataset names or links if needed.
 
 ## Tools
 
@@ -29,15 +28,12 @@ Add the exact dataset names or links if needed.
 
 1. Download the project files
 2. Install the libraries:
-
-```bash
 pip install pandas matplotlib numpy
-```
+3. Open the notebook: 
+jupyter notebook project.ipynb
 
-3. Open the notebook: jupyter notebook project.ipynb
 
-
-### Output
+## Output
 CO₂ emissions over time
 Temperature changes over time
 Country comparisons
