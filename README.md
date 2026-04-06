@@ -1,83 +1,35 @@
-
----
-
-# 🌎 Climate Change Data Analysis Project
+# Climate Change Data Analysis Project
 
 ## Overview
 
-This project analyzes global climate change trends using publicly available datasets. The goal is to identify temperature patterns, CO₂ emission trends, and country-specific environmental changes over time using **Python** and **data visualization techniques**.
+This project analyzes global climate trends using publicly available datasets. The main focus is on temperature patterns, CO₂ emissions, and environmental changes across countries over time using Python and data visualization.
 
----
+## What This Project Does
 
-## Features
+- Analyzes long-term trends in average temperature and CO₂ emissions
+- Compares climate data across countries and regions
+- Identifies countries with the fastest growth in emissions and temperature rise
+- Cleans and processes large CSV datasets
+- Creates visualizations to show trends over time
 
-* 📈 **Trend Analysis:**
-  Examined long-term changes in **average temperature** and **CO₂ emissions** across multiple countries and regions.
+## Datasets
 
-* 🌍 **Country-Specific Focus:**
-  Compared climate metrics across nations to highlight countries with the fastest-growing emissions and temperature rise.
+- Global CO₂ Emissions Dataset
+- Global Temperature Dataset
 
-* 🛠️ **Data Cleaning and Processing:**
-  Performed **data wrangling** on large CSV datasets, handling missing values and formatting inconsistencies.
+Datasets were taken from public sources such as Kaggle, climate data portals, or government databases. Replace this with the exact dataset sources if needed.
 
-* 📊 **Visualization:**
-  Used **matplotlib** and **pandas** to create line graphs, bar charts, and scatter plots showing climate trends over time.
+## Tools Used
 
----
-
-## Dataset Sources
-
-* **Global CO₂ Emissions Dataset**
-* **Global Temperature Dataset**
-  (Sourced from public datasets like Kaggle, Climate Data Initiative, or government climate data portals – update this with the exact source if needed.)
-
----
-
-## Tools & Libraries Used
-
-* Python
-* pandas
-* matplotlib
-* numpy
-
----
+- Python
+- pandas
+- matplotlib
+- numpy
 
 ## How to Run
 
-1. Clone this repository or download the project files.
-
-2. Install required Python libraries:
+1. Clone this repository or download the files.
+2. Install the required libraries:
 
 ```bash
 pip install pandas matplotlib numpy
-```
-
-3. Run the Jupyter Notebook:
-
-```bash
-jupyter notebook project.ipynb
-```
-
----
-
-## Sample Visualizations
-
-* Global CO₂ emissions over the last 50 years
-* Average global temperature increase over decades
-* Top 10 countries with the fastest-growing emissions
-
----
-
-## Project Purpose
-
-Created by **Aryan Singla** as a personal data science project to explore real-world climate change patterns through **data analysis**, **visualization**, and **statistical insight development**.
-
----
-
-## Acknowledgments
-
-* Datasets compiled from publicly available global climate data sources.
-* Visualizations built with **matplotlib** and **pandas**
-
----
-
