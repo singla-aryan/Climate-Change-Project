@@ -2,24 +2,23 @@
 
 ## Overview
 
-This project analyzes global climate trends using publicly available datasets. The main focus is on temperature patterns, CO₂ emissions, and environmental changes across countries over time using Python and data visualization.
+This project looks at climate data from public datasets. It focuses on temperature trends, CO₂ emissions, and changes across countries over time.
 
-## What This Project Does
+## Project Work
 
-- Analyzes long-term trends in average temperature and CO₂ emissions
-- Compares climate data across countries and regions
-- Identifies countries with the fastest growth in emissions and temperature rise
-- Cleans and processes large CSV datasets
-- Creates visualizations to show trends over time
+- Analyzed temperature and CO₂ data over time
+- Compared data across countries
+- Cleaned large CSV files
+- Made graphs using Python
 
 ## Datasets
 
-- Global CO₂ Emissions Dataset
-- Global Temperature Dataset
+- Global CO₂ emissions dataset
+- Global temperature dataset
 
-Datasets were taken from public sources such as Kaggle, climate data portals, or government databases. Replace this with the exact dataset sources if needed.
+Add the exact dataset names or links if needed.
 
-## Tools Used
+## Tools
 
 - Python
 - pandas
@@ -28,8 +27,17 @@ Datasets were taken from public sources such as Kaggle, climate data portals, or
 
 ## How to Run
 
-1. Clone this repository or download the files.
-2. Install the required libraries:
+1. Download the project files
+2. Install the libraries:
 
 ```bash
 pip install pandas matplotlib numpy
+```
+
+3. Open the notebook: jupyter notebook project.ipynb
+
+
+### Output
+CO₂ emissions over time
+Temperature changes over time
+Country comparisons
